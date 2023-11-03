@@ -1,0 +1,163 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+ img{
+    height: 160px;
+}
+.title{
+    display: flex;
+    list-style-type: none;
+  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: darksalmon;
+    padding: 20px;
+}
+.navbar ul li:hover{
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}   
+.text{
+    width: 800px;
+    height: 800px;
+
+}
+.form{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 10px;
+    align-items: center;
+}
+input{
+    height: 25px;
+    display: flex;
+    
+    gap: 100px ;
+border-radius: 20px;
+}
+form input[type=submit]{
+    background-color: brown;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.prg{
+border: 1px solid black;
+text-align:center;
+font-size: large;
+line-height: 60px;
+letter-spacing: 5px;
+font-family: 'Teko', sans-serif;
+border: none;
+}
+
+.icons a{
+    color: bisque;
+    list-style-type: none;
+    
+}
+.video-container{
+    position: relative;
+}
+.video-container video{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+.content{
+background-color: black;
+height: 100%;
+width: 100%;
+z-index: 1;
+position: absolute;
+top: 0;
+left: 0;
+}
+.pano{
+    display: block;
+    background-color: azure;
+   border: 1px solid black;
+   flex-direction: column;
+   height: 300px;
+   width: 300px;
+   margin-left: 450px;
+   margin-top: 50px;
+}
+.pano2{
+    height: 300px;
+    width: 300px;
+ border: 1px solid black;
+ flex-direction: column;
+ display: block;
+ align-items: center;
+ text-align: center;
+ margin-right: 450px;
+ margin-top: 50px;
+ background-color: azure;
+}
+
+.pano2 input{
+    display: flex;
+    margin: 5px;
+
+   
+}
+.div{
+
+    height:500px ;
+border: 1px solid black;
+display: flex;
+justify-content: space-between;
+border: hidden;
+}
+
+.text1{
+    height: 100px;
+    width: 200px;
+border: 1px solid black ;
+display:block ;
+margin-left: 650px;
+font-family: 'Teko', sans-serif;
+font-size: 25px;
+line-height: 25px;
+padding-bottom: 20px;
+text-align: center;
+border: hidden;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+     box-sizing: border-box;
+     padding: 30px;
+     margin-top: 50px;
+     
+     background-color: darkslategray;
+ }
+
